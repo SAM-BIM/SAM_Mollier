@@ -1,3 +1,7 @@
+[![Build (Windows)](https://github.com/SAM-BIM/SAM_Mollier/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SAM-BIM/SAM_Mollier/actions/workflows/build.yml)
+[![Installer (latest)](https://img.shields.io/github/v/release/SAM-BIM/SAM_Deploy?label=installer)](https://github.com/SAM-BIM/SAM_Deploy/releases/latest)
+
+
 # SAM_Mollier
 
 <a href="https://github.com/HoareLea/SAM_Excel"><img src="https://github.com/HoareLea/SAM_Mollier/blob/master/Grasshopper/SAM.Analytical.Grasshopper.Mollier/Resources/SAM_Mollier.png" align="left" hspace="10" vspace="6"></a>
@@ -11,7 +15,7 @@ The GitHub repository "HoareLea/SAM_Mollier" focuses on creating Mollier/Psychro
 
 ## Installing
 
-To install **SAM** from .exe just download and run [latest installer](https://github.com/HoareLea/SAM_Deploy/releases) otherwise rebuild using VS [SAM](https://github.com/HoareLea/SAM)
+To install **SAM** from .exe just download and run [latest installer](https://github.com/SAM-BIM/SAM_Deploy/releases/latest) otherwise rebuild using VS [SAM](https://github.com/HoareLea/SAM)
 
 ## Licence ##
 

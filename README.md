@@ -1,21 +1,81 @@
+[![Build (Windows)](https://github.com/SAM-BIM/SAM_Mollier/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SAM-BIM/SAM_Mollier/actions/workflows/build.yml)
+[![Installer (latest)](https://img.shields.io/github/v/release/SAM-BIM/SAM_Deploy?label=installer)](https://github.com/SAM-BIM/SAM_Deploy/releases/latest)
+
 # SAM_Mollier
 
-<a href="https://github.com/HoareLea/SAM_Excel"><img src="https://github.com/HoareLea/SAM_Mollier/blob/master/Grasshopper/SAM.Analytical.Grasshopper.Mollier/Resources/SAM_Mollier.png" align="left" hspace="10" vspace="6"></a>
+<a href="https://github.com/SAM-BIM/SAM">
+  <img src="https://github.com/SAM-BIM/SAM_Mollier/blob/master/Grasshopper/SAM.Analytical.Grasshopper.Mollier/Resources/SAM_Mollier.png"
+       align="left" hspace="10" vspace="6">
+</a>
 
-**SAM_Mollier** is part of SAM Toolkit that is designed to help engineers to create an Analytical Model. Welcome and let's make the open-source journey continue. :handshake:
+**SAM_Mollier** is part of the **SAM (Sustainable Analytical Model) Toolkit** —  
+an open-source collection of tools designed to help engineers create, manage,
+and process analytical building models for energy and environmental analysis.
 
-The GitHub repository "HoareLea/SAM_Mollier" focuses on creating Mollier/Psychrometric charts, a crucial tool in thermodynamics and air conditioning design. It facilitates creating points and simulating various processes like cooling, heating, adiabatic and isothermic humidification. The repository is unique in using Grasshopper as a user interface, offering a more interactive and visual approach. This project is not only a valuable resource for professionals in HVAC but also for students and educators in thermodynamics. For more detailed information and resources, visit the comprehensive wiki at SAM_Mollier Wiki.
+This repository provides **psychrometric (Mollier) chart utilities**
+used to evaluate and visualise moist air thermodynamic behaviour.
+It supports the creation of psychrometric points and the simulation of
+common air-conditioning processes such as heating, cooling,
+adiabatic humidification, and isothermal humidification.
+
+A key characteristic of this module is the use of **Grasshopper as a visual user interface**,
+enabling interactive, parametric exploration of psychrometric processes
+and offering an intuitive workflow for both professional practice and education.
+
+Welcome — and let’s keep the open-source journey going. 🤝
+
+---
+
+## Features
+
+- Generation and visualisation of Mollier (psychrometric) charts
+- Creation and manipulation of psychrometric state points
+- Simulation of common HVAC air processes:
+  - heating and cooling
+  - adiabatic humidification
+  - isothermal humidification
+- Interactive Grasshopper-based workflow
+- Integration with SAM analytical models
+
+---
 
 ## Resources
-* [Wiki](https://github.com/HoareLea/SAM_Mollier/wiki)
+- 📘 **SAM Mollier Wiki:** https://github.com/SAM-BIM/SAM_Mollier/wiki  
+- 📘 **SAM Wiki:** https://github.com/SAM-BIM/SAM/wiki  
+- 🧠 **SAM Core:** https://github.com/SAM-BIM/SAM  
+- 🧰 **Installers:** https://github.com/SAM-BIM/SAM_Deploy  
+
+---
 
 ## Installing
 
-To install **SAM** from .exe just download and run [latest installer](https://github.com/HoareLea/SAM_Deploy/releases) otherwise rebuild using VS [SAM](https://github.com/HoareLea/SAM)
+To install **SAM** using the Windows installer, download and run the  
+[latest installer](https://github.com/SAM-BIM/SAM_Deploy/releases/latest).
 
-## Licence ##
+Alternatively, you can build the toolkit from source using Visual Studio.  
+See the main repository for details:  
+👉 https://github.com/SAM-BIM/SAM
 
-SAM is free software licensed under GNU Lesser General Public Licence - [https://www.gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html)  
-Each contributor holds a copyright over their respective contributions.
-The project versioning (Git) records all such contribution source information.
-See [LICENSE](https://github.com/HoareLea/SAM_Template/blob/master/LICENSE) and [COPYRIGHT_HEADER](https://github.com/HoareLea/SAM/blob/master/COPYRIGHT_HEADER.txt).
+---
+
+## Development notes
+
+- Target framework: **.NET / C#**
+- Psychrometric calculations follow SAM-BIM analytical modelling conventions
+- Grasshopper components provide the primary user interface
+- New or modified `.cs` files must include the SPDX header from `COPYRIGHT_HEADER.txt`
+
+---
+
+## Licence
+
+This repository is free software licensed under the  
+**GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)**.
+
+Each contributor retains copyright to their respective contributions.  
+The project history (Git) records authorship and provenance of all changes.
+
+See:
+- `LICENSE`
+- `NOTICE`
+- `COPYRIGHT_HEADER.txt`

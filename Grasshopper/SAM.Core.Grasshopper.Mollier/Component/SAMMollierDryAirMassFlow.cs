@@ -40,7 +40,7 @@ namespace SAM.Core.Grasshopper.Mollier
             get
             {
                 List<GH_SAMParam> result = new List<GH_SAMParam>();
-                result.Add(new GH_SAMParam(new global::Grasshopper.Kernel.Parameters.Param_Number() { Name = "dryAirMassFlow", NickName = "dryAirMassFlow", Description = "dryAirMassFlow [kg/s]", Access = GH_ParamAccess.item }, ParamVisibility.Binding));
+                result.Add(new GH_SAMParam(new global::Grasshopper.Kernel.Parameters.Param_Number() { Name = "dryAirMassFlow", NickName = "dryAirMassFlow", Description = "Dry-air mass flow [kg/s].", Access = GH_ParamAccess.item }, ParamVisibility.Binding));
 
                 return result.ToArray();
             }
@@ -51,7 +51,8 @@ namespace SAM.Core.Grasshopper.Mollier
         /// </summary>
         public SAMMollierDryAirMassFlow()
           : base("SAMMollier.DryAirMassFlow", "SAMMollier.DryAirMassFlow",
-              "Dry Air Mass Flow [kg/s]",
+              "Calculates the dry-air mass flow [kg/s] from a total (moist-air) mass flow and the humidity ratio:\n" +
+              "m_dryAir = m / (1 + x).",
               "SAM", "Mollier")
         {
         }

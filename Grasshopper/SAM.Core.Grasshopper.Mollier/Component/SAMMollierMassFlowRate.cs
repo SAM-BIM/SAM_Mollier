@@ -57,7 +57,7 @@ namespace SAM.Core.Grasshopper.Mollier
         /// </summary>
         public SAMMollierMassFlowRate()
           : base("SAMMollier.MassFlowRate", "SAMMollier.MassFlowRate",
-              "Calculates mass flor rate from valumetric flow rate and density.",
+              "Calculates mass flow rate [kg/s] from a volumetric flow rate and a density.",
               "SAM", "Mollier")
         {
         }

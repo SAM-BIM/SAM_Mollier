@@ -1,4 +1,7 @@
-﻿using SAM.Analytical.Grasshopper.Mollier.Properties;
+﻿// SPDX-License-Identifier: LGPL-3.0-or-later
+// Copyright (c) 2020-2026 Michal Dengusiak & Jakub Ziolkowski and contributors
+
+using SAM.Analytical.Grasshopper.Mollier.Properties;
 using SAM.Analytical.Mollier;
 using SAM.Core.Grasshopper;
 using System;

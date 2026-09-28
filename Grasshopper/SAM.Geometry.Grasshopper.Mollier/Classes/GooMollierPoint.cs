@@ -61,7 +61,7 @@ namespace SAM.Geometry.Grasshopper.Mollier
     {
         public override Guid ComponentGuid => new Guid("0dbb3c67-374c-4534-b1c1-83d825566bc1");
 
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_Small;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_MollierPoint;
 
         public GooMollierPointParam()
             : base("MollierPoint", "MollierPoint", "SAM Core Mollier MollierPoint", "Params", "SAM")

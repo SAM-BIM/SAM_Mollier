@@ -41,7 +41,7 @@ namespace SAM.Core.Grasshopper.Mollier
     {
         public override Guid ComponentGuid => new Guid("2bc4d547-aa2b-473e-b42e-575722ce8367");
 
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_Small;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_Group;
 
         public override GH_Exposure Exposure => GH_Exposure.hidden;
 

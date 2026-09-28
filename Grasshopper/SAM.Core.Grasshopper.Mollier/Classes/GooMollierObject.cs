@@ -42,7 +42,7 @@ namespace SAM.Core.Grasshopper.Mollier
     {
         public override Guid ComponentGuid => new Guid("598315c1-c756-4bbb-b66e-c6640e56ff99");
 
-        protected override Bitmap Icon => Resources.SAM_Small;
+        protected override Bitmap Icon => Resources.SAM_GH_MollierChart;
 
         public GooMollierObjectParam()
             : base("MollierObject", "MollierObject", "SAM Core MollierObject", "Params", "SAM")

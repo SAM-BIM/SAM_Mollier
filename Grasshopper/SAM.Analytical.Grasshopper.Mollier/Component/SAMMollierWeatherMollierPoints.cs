@@ -23,7 +23,7 @@ namespace SAM.Analytical.Grasshopper.Mollier
         /// <summary>
         /// Provides an Icon for the component.
         /// </summary>
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_Small;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_MollierPointGet;
 
         public override GH_Exposure Exposure => GH_Exposure.primary;
 

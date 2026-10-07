@@ -1,4 +1,7 @@
-﻿using SAM.Core.Grasshopper;
+﻿// SPDX-License-Identifier: LGPL-3.0-or-later
+// Copyright (c) 2020-2026 Michal Dengusiak & Jakub Ziolkowski and contributors
+
+using SAM.Core.Grasshopper;
 using System;
 using SAM.Core.Grasshopper.Mollier.Properties;
 using SAM.Core.Mollier;
@@ -20,7 +23,7 @@ namespace SAM.Weather.Grasshopper
         /// <summary>
         /// Provides an Icon for the component.
         /// </summary>
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_Small;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_MollierPointValue;
 
         /// <summary>
         /// Zone Type Enum Component

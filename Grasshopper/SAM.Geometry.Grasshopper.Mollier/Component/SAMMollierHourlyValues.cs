@@ -1,4 +1,7 @@
-﻿using Grasshopper.Kernel;
+﻿// SPDX-License-Identifier: LGPL-3.0-or-later
+// Copyright (c) 2020-2026 Michal Dengusiak & Jakub Ziolkowski and contributors
+
+using Grasshopper.Kernel;
 using SAM.Geometry.Grasshopper.Mollier.Properties;
 using SAM.Core.Mollier;
 using System;
@@ -23,7 +26,7 @@ namespace SAM.Geometry.Grasshopper.Mollier
         /// <summary>
         /// Provides an Icon for the component.
         /// </summary>
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_Mollier;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_WeatherDataPluralGet;
 
         public override GH_Exposure Exposure => GH_Exposure.primary;
 

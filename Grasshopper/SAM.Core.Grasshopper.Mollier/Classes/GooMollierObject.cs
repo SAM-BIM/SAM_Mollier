@@ -1,4 +1,7 @@
-﻿using Grasshopper.Kernel;
+﻿// SPDX-License-Identifier: LGPL-3.0-or-later
+// Copyright (c) 2020-2026 Michal Dengusiak & Jakub Ziolkowski and contributors
+
+using Grasshopper.Kernel;
 using Grasshopper.Kernel.Types;
 using SAM.Core.Grasshopper.Mollier.Properties;
 using SAM.Core.Mollier;
@@ -42,7 +45,7 @@ namespace SAM.Core.Grasshopper.Mollier
     {
         public override Guid ComponentGuid => new Guid("598315c1-c756-4bbb-b66e-c6640e56ff99");
 
-        protected override Bitmap Icon => Resources.SAM_Small;
+        protected override Bitmap Icon => Resources.SAM_GH_MollierChart;
 
         public GooMollierObjectParam()
             : base("MollierObject", "MollierObject", "SAM Core MollierObject", "Params", "SAM")
